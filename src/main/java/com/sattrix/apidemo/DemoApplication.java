@@ -8,10 +8,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
-@Configuration
-@EnableAutoConfiguration
-@ComponentScan(basePackages ="com.sattrix.apidemo")
-@EnableWebMvc
 public class DemoApplication {
 
 	public static void main(String[] args) {
